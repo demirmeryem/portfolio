@@ -26,6 +26,11 @@ footer {
     text-decoration: none;
 }
 
+.footer__contact .link:hover {
+    background-color: var(--gray-color-500);
+}
+
+
 .footer__siteinfo {
     max-width: 1400px;
     padding: 30px 32px;
@@ -40,6 +45,9 @@ footer {
     display: flex;
     gap: 32px;
 }
+
+
+
 
 .footer__siteinfo .links a {
     text-decoration: none;
